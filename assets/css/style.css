@@ -361,7 +361,7 @@ body.nav-active { overflow: hidden; }
 /* About Section Container */
 .about {
   background-color: var(--white);
-  padding: var(--section-padding) 0;
+  padding: 40px 0;
   position: relative;
 }
 
@@ -820,7 +820,10 @@ textarea.input-field {
 
 .copyright { margin-block-end: 12px; }
 
-.footer .social-link { color: var(--charcoal); }
+.footer .social-link { 
+    color: var(--charcoal);
+    font-size: 3.2rem;
+}
 
 
 
