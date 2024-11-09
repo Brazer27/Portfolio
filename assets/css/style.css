@@ -521,6 +521,7 @@ body.nav-active { overflow: hidden; }
   opacity: 1;
 }
 
+
 /* Experience Section */
 .experience {
   margin-top: 80px;
@@ -528,18 +529,31 @@ body.nav-active { overflow: hidden; }
   padding-right: 30px;
 }
 
-.experience .section-title::after {
-  margin-left: 0;
+.experience .section-title {
+  margin-bottom: 25px;
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+  color: var(--charcoal);
 }
 
+.experience .section-title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: var(--cinnamon-satin);
+  margin: 8px auto;
+}
+
+/* Timeline style for experience items */
 .experience-list {
   display: flex;
   flex-direction: column;
   gap: 30px;
   position: relative;
+  padding-right: 20px;
 }
 
-/* Timeline line */
 .experience-list::before {
   content: '';
   position: absolute;
@@ -557,9 +571,31 @@ body.nav-active { overflow: hidden; }
   position: relative;
   transition: transform 0.3s ease;
   border-left: 4px solid var(--cinnamon-satin);
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adjust spacing between lines */
 }
 
-/* Timeline dots */
+/* Date Range Styling */
+.experience-item .date-range {
+  font-weight: bold;
+  color: var(--cinnamon-satin); /* Color for the date range */
+}
+
+/* Company Name Styling */
+.experience-item .company-name {
+  font-weight: bold;
+  color: var(--black-coral); /* Black color for the company name */
+}
+
+/* Description Styling */
+.experience-item .description {
+  font-weight: normal;
+  color: var(--black-coral); /* Standard color for description text */
+  line-height: 1.6;
+}
+
+/* Timeline dots for experience items */
 .experience-item::after {
   content: '';
   position: absolute;
@@ -577,17 +613,6 @@ body.nav-active { overflow: hidden; }
   box-shadow: var(--shadow-2);
 }
 
-.experience-item strong {
-  display: block;
-  color: var(--cinnamon-satin);
-  margin-bottom: 8px;
-  font-size: var(--fs-6);
-}
-
-.experience-item p {
-  color: var(--black-coral);
-  line-height: 1.6;
-}
 
 /* Reveal Animations */
 [data-reveal] {
