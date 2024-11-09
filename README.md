@@ -4,11 +4,11 @@ Welcome to the source code for Nadya Gabriella’s Personal Portfolio Website. T
 
 
 ✨ Features
-Responsive Design: Optimized for various devices and screen sizes.
-About Me Section: A brief introduction and my background in design.
-Education & Experience: Displays my academic journey and work experience in a structured timeline format.
-Projects: A gallery showcasing recent design projects, with project details and visuals.
-Contact Me Form: Allows visitors to reach out directly, with email automation for seamless communication.
+- Responsive Design: Optimized for various devices and screen sizes.
+- About Me Section: A brief introduction and my background in design.
+- Education & Experience: Displays my academic journey and work experience in a structured timeline format.
+- Projects: A gallery showcasing recent design projects, with project details and visuals.
+- Contact Me Form: Allows visitors to reach out directly, with email automation for seamless communication.
 
 
 Technologies Used
