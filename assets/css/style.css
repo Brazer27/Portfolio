@@ -425,14 +425,14 @@ body.nav-active { overflow: hidden; }
 
 .education strong {
   color: var(--cinnamon-satin);
-  display: block;
-  margin-bottom: 8px;
+  display: inline;
+  margin-bottom: 2px;
   font-size: var(--fs-6);
 }
 
 .education p {
   color: var(--black-coral);
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 /* Strengths Section */
