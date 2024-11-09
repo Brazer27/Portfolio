@@ -322,7 +322,7 @@ body.nav-active { overflow: hidden; }
   #Home
 \*-----------------------------------*/
 .hero {
-  padding-block-start: calc(var(--section-padding) + 50px);
+  padding-block-start: calc(var(--section-padding) + 30px);
   background-color: var(--white);
 }
 
