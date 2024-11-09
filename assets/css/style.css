@@ -220,6 +220,17 @@ body.nav-active { overflow: hidden; }
   align-items: center;
 }
 
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
 .nav-open-btn {
   font-size: 3.5rem;
   color: var(--gunmetal);
